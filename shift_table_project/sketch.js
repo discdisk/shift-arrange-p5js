@@ -42,6 +42,7 @@ class mybuttom{
 	}
 	clicked(){
 		this.status=!this.status;
+		strokeWeight(20);
 		if (this.status) {
 			stroke(color(0, 200, 0));
 		}else{

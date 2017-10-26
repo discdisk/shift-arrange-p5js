@@ -166,7 +166,8 @@ function counttime(){
 		strokeWeight(5);
 		stroke(255);
 		fill(120);
-		text(members[i]+":"+count[members[i]].toString(),355,250+i*60)
-
+		text(members[i]+":"+count[members[i]].toString(),355,250+i*60);
+		count[members[i]]=0;
 	}
+
 }
